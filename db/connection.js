@@ -8,5 +8,4 @@ const db = mysql.createConnection({
   password: process.env.DB_PW,
   database: process.env.DB_NAME,
 });
-// export db
 module.exports = db;
